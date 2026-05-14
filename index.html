@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dessert App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <section class="home-header">
+      <h1>Dessert App</h1>
+      <p>Trouve un dessert avec les ingrédients que tu as chez toi.</p>
+
+      <div class="search-box">
+        <input id="searchInput" type="text" placeholder="Ex : cookies, crêpes, gâteaux...." />
+        <button onclick="searchRecipe()">Rechercher</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>Recettes populaires</h2>
+
+      <div class="recipe-grid">
+        <a href="cookies.html" class="recipe-card">
+          <img src="images/cookies.jpg" alt="Cookies">
+          <h3>Cookies</h3>
+          <p>⭐ 4.8</p>
+        </a>
+
+        <a href="crepes.html" class="recipe-card">
+          <img src="images/crepes.jpg" alt="Crêpes">
+          <h3>Crêpes</h3>
+          <p>⭐ 4.7</p>
+        </a>
+
+        <a href="brownies.html" class="recipe-card">
+          <img src="images/brownies.jpg" alt="Brownie">
+          <h3>Brownie</h3>
+          <p>⭐ 4.9</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
